@@ -20,7 +20,7 @@
   position: relative;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
-  min-height: calc(100vh - var(--page__padding));
+  height: calc(100vh - var(--page__padding));
 }
 
 .decorated-zone::before {
@@ -344,7 +344,7 @@
   position: relative;
   display: flex;
   justify-content: center;
-  min-height: calc(100vh - var(--page__padding));
+  height: calc(100vh - var(--page__padding));
   margin-top: var(--page__padding);
 }
 
