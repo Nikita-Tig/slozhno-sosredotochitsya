@@ -22,16 +22,15 @@
   --main__text-color: #353430;
   --bg-color: #fff1f7;
 
-  background-image: 
-    image-set(
-      url(../images/cover-image-light.png) 1x type("image/png"),
-      url(../images/cover-image-light.avif) 1x type("image/avif"),
-      url(../images/cover-image-light-x2.avif) 2x type("image/avif"),
-      url(../images/cover-image-light-x3.avif) 3x type("image/avif"),
-      url(../images/cover-image-light.avif) 1x type("image/webp"),
-      url(../images/cover-image-light-x2.webp) 2x type("image/webp"),
-      url(../images/cover-image-light-x3.webp) 3x type("image/webp")
-    );
+  background-image: image-set(
+    url(../images/cover-image-light.png) 1x type("image/png"),
+    url(../images/cover-image-light.avif) 1x type("image/avif"),
+    url(../images/cover-image-light-x2.avif) 2x type("image/avif"),
+    url(../images/cover-image-light-x3.avif) 3x type("image/avif"),
+    url(../images/cover-image-light.avif) 1x type("image/webp"),
+    url(../images/cover-image-light-x2.webp) 2x type("image/webp"),
+    url(../images/cover-image-light-x3.webp) 3x type("image/webp")
+  );
 }
 
 .page.theme_light .header__light {
@@ -52,8 +51,7 @@
     --main__text-color: #353430;
     --bg-color: #fff1f7;
 
-    background-image: 
-    image-set(
+    background-image: image-set(
       url(../images/cover-image-light.png) 1x type("image/png"),
       url(../images/cover-image-light.avif) 1x type("image/avif"),
       url(../images/cover-image-light-x2.avif) 2x type("image/avif"),

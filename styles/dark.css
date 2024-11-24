@@ -22,15 +22,15 @@
   --main__text-color: #f1b2ce;
   --bg-color: #000028;
 
-  background-image: url(../images/cover-image-dark.png)
-    image-set(
-      url(../images/cover-image-dark.avif) 1x type("image/avif"),
-      url(../images/cover-image-dark-x2.avif) 2x type("image/avif"),
-      url(../images/cover-image-dark-x3.avif) 3x type("image/avif"),
-      url(../images/cover-image-dark.avif) 1x type("image/webp"),
-      url(../images/cover-image-dark-x2.webp) 2x type("image/webp"),
-      url(../images/cover-image-dark-x3.webp) 3x type("image/webp")
-    );
+  background-image: image-set(
+    url(../images/cover-image-dark.png) 1x type("image/png"),
+    url(../images/cover-image-dark.avif) 1x type("image/avif"),
+    url(../images/cover-image-dark-x2.avif) 2x type("image/avif"),
+    url(../images/cover-image-dark-x3.avif) 3x type("image/avif"),
+    url(../images/cover-image-dark.avif) 1x type("image/webp"),
+    url(../images/cover-image-dark-x2.webp) 2x type("image/webp"),
+    url(../images/cover-image-dark-x3.webp) 3x type("image/webp")
+  );
 }
 
 .page.theme_dark .header__light {
@@ -51,7 +51,15 @@
     --main__text-color: #f1b2ce;
     --bg-color: #000028;
 
-    background-image: url(../images/cover-image-dark.png);
+    background-image: image-set(
+      url(../images/cover-image-dark.png) 1x type("image/png"),
+      url(../images/cover-image-dark.avif) 1x type("image/avif"),
+      url(../images/cover-image-dark-x2.avif) 2x type("image/avif"),
+      url(../images/cover-image-dark-x3.avif) 3x type("image/avif"),
+      url(../images/cover-image-dark.avif) 1x type("image/webp"),
+      url(../images/cover-image-dark-x2.webp) 2x type("image/webp"),
+      url(../images/cover-image-dark-x3.webp) 3x type("image/webp")
+    );
   }
 
   .header__light {
