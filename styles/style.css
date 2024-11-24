@@ -113,13 +113,11 @@
 }
 
 .header__theme-menu-button:focus {
-  border-bottom: 1px solid var(--button-focus);
   outline: none;
 }
 
 .header__theme-menu-button:focus-visible {
-  outline: 1px solid var(--button-focus);
-}
+  border-bottom: 1px solid var(--button-focus);}
 
 .header__theme-menu-button_active {
   outline: 1px solid var(--button);
@@ -279,6 +277,10 @@
 
 .main__text-link:focus-visible {
   outline: 1px solid var(--main__text-color);
+}
+
+.subtitle__normal {
+  font-weight: normal;
 }
 
 .gallery-section {
